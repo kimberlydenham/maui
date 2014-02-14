@@ -1,0 +1,327 @@
+/* HTML5 ✰ Boilerplate */
+
+
+
+
+
+
+.nav {
+	max-height: 600px;
+	width: 130px;
+	margin: 0px auto 0 auto;
+	text-align: left;
+	color: #fff; 
+	text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.4);
+	margin-left:100px;
+	
+}
+
+.nav ul {
+	margin-left: 0;
+	margin-bottom: 3px;
+}
+
+.nav ul li {
+	list-style-type: none;
+}
+
+.nav ul li a:hover {
+	color: #CFB07A!important;
+}
+
+.nav .slide {
+	list-style: none;
+	max-height: 600px;
+	width: 180px;
+}
+
+
+.nav .slide li h3 {
+	color: white;
+	text-transform: uppercase;
+	line-height: .9;
+}
+
+.nav .slide li a {
+	display: block;
+	color: #fff;
+	margin: 0;
+	width: 180px;
+	text-decoration: none;
+}
+
+.nav .slide li ul li a {
+	display: block;
+	color: #fff;
+	margin: 0;
+	width: 180px;
+	text-decoration: none;
+}
+
+.nav .slide li,
+.nav .slide li ul li.rooms {
+	display: block;
+	width: 180px;
+}
+
+.nav .slide li.do li,
+.nav .slide li.see li,
+.nav .slide li.see li ul li,
+.nav .slide li.drink li,
+.nav .slide li.drink li ul li,
+.nav .slide li.eat li,
+.nav .slide li.relax li, {
+	letter-spacing: 1px;
+	margin-bottom: 0px;
+} 
+
+.nav .slide:hover li.do:hover h3,
+.nav .slide:hover li.do:hover li,
+.nav .slide:hover li.see:hover h3,
+.nav .slide:hover li.see:hover li,
+.nav .slide:hover li.drink:hover h3,
+.nav .slide:hover li.drink:hover li,
+.nav .slide:hover li.eat:hover h3,
+.nav .slide:hover li.eat:hover li,
+.nav .slide:hover li.relax:hover h3,
+.nav .slide:hover li.relax:hover li,
+.nav .slide:hover li.rest:hover h3,
+.nav .slide:hover li.rest:hover li  {
+	color: #CFB07A;
+}
+
+.nav .slide:hover li.see:hover li.rooms:hover a,
+.nav .slide:hover li.drink:hover li.weddings:hover a,
+.nav .slide:hover li.drink:hover li.events:hover a,
+.nav .slide:hover li.activities:hover li.area-activities:hover a {
+	color: #CFB07A;
+}
+
+.nav .slide li.drink li.weddings li a,
+.nav .slide li.drink li.events li a,
+.nav .slide li.activities li.area-activities li a {
+	padding-left: 15px;
+}
+
+.nav .slide:hover li a:hover {
+	color: #CFB07A;
+	
+}
+
+/* do  */
+.nav .slide li.do h3 {
+	letter-spacing: 1px;
+}
+
+.nav .slide li {
+	text-transform: uppercase;
+	display: block;
+}
+
+/* see */
+.nav .slide li.see h3{
+	letter-spacing: 1px;
+}
+
+.nav .slide:hover li.see:hover h3,
+.nav .slide:hover li.see:hover li {
+	color: #CFB07A;
+}
+
+.nav .slide li.see ul li.rooms li {
+	padding-left: 15px;
+}
+
+.nav .slide li.see ul li.rooms li:first-child {
+	margin-top: 3px;
+}
+
+/* drink */
+.nav .slide li.drink h3 {
+	letter-spacing: 1px;
+}
+
+.nav .slide li.drink h3 span.char6 {
+	margin-left: -1px;
+	margin-right: 1px;
+}
+
+.nav .slide li.drink h3 span.char8 {
+	margin-left: -2px;
+}
+
+.nav .slide li.drink h3 span.char9 {
+	margin-left: -1px;
+}
+
+li.weddings ul li,
+li.events ul li, {
+	padding-left: 15px;
+}
+
+.nav .slide li.drink ul li.weddings li:first-child,
+.nav .slide li.drink ul li.events li:first-child {
+	margin-top: 3px;
+}
+
+/* eat */
+.nav .slide li.eat h3 {
+	letter-spacing: 1px;
+}
+
+.nav .slide li.eat h3 span.char4 {
+	margin-right: 2px;
+}
+.nav .slide li.eat h3 span.char5 {
+	margin-right: 2px;
+}
+
+/* Relax */
+.nav .slide li.relax h3  {
+	letter-spacing: 1px;
+}
+
+/* Reserve */
+.nav .slide li.reserve h3 {
+    letter-spacing: 2px;
+}
+
+.nav .slide li.reserve a.top-level {
+	letter-spacing: 2px;
+}
+
+.hover {
+    color: #CFB07A;
+}
+
+ul#nav-annex-1 {
+	border-top:1px solid #fff; 
+	padding-top: 4px;
+	line-height: 1;
+	xtext-align:center;
+}
+
+ul#nav-annex-1 li a {
+	text-transform: uppercase;
+	margin-left:18px; 
+	color: #fff; 
+	font-size:19px;
+	letter-spacing: 0.02em;
+	cursor: pointer;
+}
+
+
+
+
+ul#top-social {
+	text-shadow: none;
+	overflow: auto; 
+	margin:0;}
+
+ul#top-social li a {
+	display: inline; 
+	float: left; 
+	background: url(../images/btn_social.png); 
+	width:35px; 
+	height: 41px; 
+	text-indent: -9999em; 
+	margin: 3px;
+	cursor: pointer;
+}
+
+ul#top-social li a:hover {background-position:0px -41px;}
+
+ul#top-social li a.facebook {background-position:-43px 0;}
+ul#top-social li a.twitter {background-position:-86px 0;}
+
+
+ul#top-social li a.facebook:hover {background-position:-43px -41px;}
+ul#top-social li a.twitter:hover {background-position:-86px -41px;}
+
+#textbox{
+	position:absolute;
+	margin-left:370px;
+	margin-top:0px;
+	background-color: #DAEBF4;
+	opacity:.99;
+	}
+#moarbottomspc{
+	height:30px;
+	width:400px;
+	position:absolute;
+	}
+	
+	
+#beachmap{
+	height:255px;
+	width:400px;
+	position:absolute;
+	margin-top:20px;
+	margin-left:80px;
+	
+	}	
+	
+#beachpic{
+	position:absolute;
+	margin-left:15px;
+	margin-top:-19px;
+	}	
+	
+#beachkap{
+	position:absolute;
+	height:135px;
+	width:180px;
+	margin-left:15px;
+	margin-top:-19px;
+	}	
+
+	
+#textbox p {
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-weight:100;
+	font-size:x-small;
+	margin-left:220px;
+	margin-left:220px;
+	margin-right:10px;
+	margin-bottom:36px;
+}
+
+
+#textbox h2 {
+	font-family:"gabriola copy";
+	font-weight:600;
+	font-size:medium;
+	margin-left:220px;
+	margin-bottom:-1px;
+	}
+
+#line{
+	height:1px;
+	width:480px;
+	margin-left:15px;
+	margin-top:-20px;
+	position:absolute;
+	background-color:#3EABD0;
+	
+	}
+	
+	
+#mapline{
+	height:1px;
+	width:480px;
+	margin-left:15px;
+	margin-top:-10px;
+	position:absolute;
+	background-color:#3EABD0;
+	
+	}	
+#map{
+	margin-top:60px;
+	text-align:center;
+	}
+	
+.beachtitle{
+	font-family:"gabriola copy";
+	font-weight:800;
+	font-size: 36px;
+	}	

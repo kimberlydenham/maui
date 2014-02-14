@@ -1,0 +1,479 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Travel Maui-restaurants</title>
+
+<link href="css/restaurantsstyle.css" rel="stylesheet"  type="text/css">
+<link href="css/restaurantsstyle.auto.css" rel="stylesheet"  type="text/css">
+
+<style type="text/css">
+	@font-face {font-family: "gabriola copy"; 
+	src: url(fonts/Gabriola%20copy.ttf);
+	}
+	body {
+		background-image: url(images/restaurants_bg.jpg);
+		background-attachment:fixed;
+		min-height:100%;
+		min-width:1020px;
+		width:100%;
+		height:100%;
+		position:fixed;
+		margin-top:0px;
+		margin-left:0px;
+		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+ 		 background-size: cover;
+		}
+</style>
+
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.textfill.js"></script>
+
+<script type="text/javascript">
+var _gaq = _gaq || [];
+
+        _gaq.push(['_setAccount', 'UA-31508-3']);
+
+        _gaq.push(['_setDomainName', 'none']);
+
+        _gaq.push(['_setAllowHash', false]);
+
+        _gaq.push(['_setAllowLinker', true]);
+
+        _gaq.push(['_trackPageview']);
+
+
+
+        (function () {
+
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+
+            ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+
+        })();
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+
+<script type="text/javascript" src="js/jqery.min.js"></script>
+
+<style type="text/css">
+	a img {
+		border: 0;
+	}
+	#largeImage {
+		position: absolute;
+		padding: 8px;
+		background-color: #e3e3e3;
+		border: 1px solid #bfbfbf;
+	}
+</style>
+
+<script type="text/javascript">
+	$(function(){
+		var offsetX = 20;
+		var offsetY = 10;
+		$('a.hover').hover(function(e){	
+			var href = $(this).attr('href');
+			$('<img id="largeImage" src="' + href + '" alt="image" />')
+				.css({'top':e.pageY + offsetY,'left':e.pageX + offsetX})
+				.appendTo('body');
+		}, function(){
+			$('#largeImage').remove();
+		});
+		$('a.hover').mousemove(function(e){
+			$('#largeImage').css({'top':e.pageY + offsetY,'left':e.pageX + offsetX});
+		});
+		$('a.hover').click(function(e){
+			e.preventDefault();
+		});
+	});
+</script>
+
+
+
+</head>
+
+<body id="home">
+
+    <div id="container">
+	<header id="first">
+
+<!-- Home_Header -->
+
+<hgroup>
+
+	<a href="index.html" class="logo" alt="Maui"></a>
+
+</hgroup>
+
+
+
+
+
+<!-- Interior_MainNavigation -->
+
+<div class="nav">
+
+    <ul class="slide">
+
+        
+
+<!-- MainNavItem -->
+
+<li class="do">
+
+	<div id="do">
+
+        <a href="beach.html" class="" target=""><h3 class="autosize" style="white-space:nowrap;"><span>Do</span></h3></a>
+
+	    <ul id="do_items">
+                        <li ><a href="beach.html">Beach</a></li>
+
+                        <li ><a href="snorkle.html">Snorkle</a></li>
+                        
+                        <li ><a href="surf.html">Surf</a></li>
+
+                        <li ><a href="trails.html">Trails</a></li>
+
+
+        </ul>
+
+    </div>
+
+</li>
+
+<!-- MainNavItem -->
+
+<li class="see">
+
+	<div id="see">
+
+        <a href="waterfalls.html" class="" target=""><h3 class="autosize" style="white-space:nowrap;"><span>See</span></h3></a>
+
+	    <ul id="see_items">
+
+                        <li ><a href="waterfalls.html">Waterfalls</a></li>
+
+                        <li ><a href="parks.html">Parks</a></li>
+
+        </ul>
+
+    </div>
+
+</li>
+
+<!-- MainNavItem -->
+
+<li class="rest">
+
+	<div id="rest">
+
+        <a href="rest.html" class="" target=""><h3 class="autosize" style="white-space:nowrap;"><span>Rest</span></h3></a>
+
+	    <ul id="rest_items">
+
+
+                        <li ><a href="rest.html">Resorts and Day Spas</a></li>
+
+
+                        
+        </ul>
+
+    </div>
+
+</li>
+
+
+<!-- MainNavItem -->
+
+<li class="eat">
+
+	<div id="eat">
+
+        <a href="restaurants.html" class="" target=""><h3 class="autosize" style="white-space:nowrap;"><span>Eat</span></h3></a>
+
+	    <ul id="eat_items">
+
+                        <li ><a href="restaurants.html">Restaurants</a></li>
+
+        </ul>
+
+    </div>
+
+</li>
+
+<!-- MainNavItem -->
+
+<li class="drink">
+
+	<div id="drink">
+
+        <a href="bars.html" class="" target=""><h3 class="autosize" style="white-space:nowrap;"><span>Drink</span></h3></a>
+
+	    <ul id="drink_items">
+
+                        <li ><a href="bars.html">Nightlife</a></li>
+
+
+        </ul>
+
+    </div>
+
+</li>
+
+<!-- MainNavItem -->
+
+
+
+    </ul>
+
+
+    <ul id="nav-annex-1">
+
+                        <li ><a href="contact.html">Contact Us</a></li>
+
+    </ul>
+
+    <ul id="top-social">
+
+                        <li ><a href="https://www.google.com/search?q=maui+weather&oq=maui+weather&aqs=chrome..69i57j0l5.2947j0j7&sourceid=chrome&espv=210&es_sm=119&ie=UTF-8" target="_blank">Weather</a></li>
+
+                        <li ><a href="http://www.facebook.com" target="_blank"class="facebook">Facebook</a></li>
+
+                        <li ><a href="http://www.twitter.com/" class="twitter" target="_blank">Twitter</a></li>
+
+                  
+
+    </ul>
+    
+</div>    </header>
+
+ <div style="width:500px;height:100%;overflow:scroll;padding:10px;color:#444444;scrollbar-base-color:#DEBB07;" id="textbox">
+<h1 class="beachtitle" style="text-align:center;">THE TOP RESTAURANTS</h1>
+<div id="line">
+</div> 
+<h2>Pineapple Grill</h2>
+<div id="beachpic">
+<a href="images/restaurants_pine_big.jpg" class="hover"><img src="images/restaurants_pine.jpg" /></a>
+</div>
+<p>Over the past 31 years, David and Lesley Cohn have brought San Diego dining to a new level. Beginning with one small diner in 1981, Cohn Restaurant Group now owns and operates 19 restaurants within the San Diego area and Maui. Each restaurant has gained respect through numerous awards and accolades, including multiple San Diego Gold Medallion Awards, Restaurateur of the Year, Gaslamp Quarter Association Lamplighter Awards, and other honors from local publications and philanthropic organizations. </p>
+
+<h2>Leilani's</h2>
+<div id="beachkap">
+<a href="images/restaurants_leil_big.jpg" class="hover"><img src="images/restaurants_leil.jpg" /></a>
+</div>
+<p>On famous Ka’anapali Beach, Leilani’s offer the perfect vantage point for viewing amazing sunsets framed by the islands of Lanai and Molokai. Savor fresh Island fish, seafood, prime rib, steaks, rack of lamb and barbecue ribs. Located right on famous Ka’anapali Beach, Leilani's offers one of the island's most dramatic views - orange and pink sunsets framed by the islands of Lanai and Molokai. In this setting, our island steakhouse is the perfect place to savor the finest cuts of classic steaks and the best of Hawaii's local seafood. </p>
+
+<h2>Lahaina Grill</h2>
+<div id="beachkap">
+<a href="images/restaurants_lahaina_big.jpg" class="hover"><img src="images/restaurants_lahaina.jpg" /></a>
+</div>
+
+<p>Lahaina Grill is open nightly from 5:30 p.m. 
+Lahaina Grill is located at the historic Lahaina Inn just off Front Street in Lahaina Town on the Island of Maui, and offers legendary dining service in a refined yet comfortable atmosphere. This restaurant features innovative, New American cuisine, Lahaina Grill uses techniques and flavors from around the world, all perfectly blended with the freshest ingredients cultivated by Maui’s local farms, dairies and surrounding waters.
+</p>
+
+
+<div id="map"</div>
+<h1>REFERENCE MAP</h1>
+</div>
+
+<div id="mapline">
+
+</div>
+<div id="beachmap">
+  <img src="images/bars_map.png" width="350" height="215" alt=""/> </div>
+
+
+
+<div id="moarbottomspc"></div>
+</div>
+
+<!----------------------------->
+
+<!-- slide javascript -->
+
+<script type="text/javascript">
+
+var currentMenu = "";
+var lastMenu = "";
+var mousePos = "";
+var menuOpen = false;
+var do_items = 0;
+var see_items = 0;
+var rest_items = 0;
+var eat_items = 0;
+var drink_items = 0;
+$(document).ready(function(){
+/* do_items */
+do_items=$("#do_items").height();
+$("#do_items").hide().css({height:do_items});
+$("#do").mouseenter( function(){mousePos = "do_items";if (menuOpen == false) {currentMenu = mousePos;}});
+/* see_items */
+see_items=$("#see_items").height();
+$("#see_items").hide().css({height:see_items});
+$("#see").mouseenter( function(){mousePos = "see_items";if (menuOpen == false) {currentMenu = mousePos;}});
+/* rest_items */
+rest_items=$("#rest_items").height();
+$("#rest_items").hide().css({height:rest_items});
+$("#rest").mouseenter( function(){mousePos = "rest_items";if (menuOpen == false) {currentMenu = mousePos;}});
+/* eat_items */
+eat_items=$("#eat_items").height();
+$("#eat_items").hide().css({height:eat_items});
+$("#eat").mouseenter( function(){mousePos = "eat_items";if (menuOpen == false) {currentMenu = mousePos;}});
+/* drink_items */
+drink_items=$("#drink_items").height();
+$("#drink_items").hide().css({height:drink_items});
+$("#drink").mouseenter( function(){mousePos = "drink_items";if (menuOpen == false) {currentMenu = mousePos;}});
+
+});
+
+
+
+
+    // Hide Sub Nav Items
+
+    $("#see-rooms").hide();
+
+    $("#rest-weddings").hide();
+
+    $("#rest-events-list").hide();
+
+
+
+
+    /* Sub Nav Toggle */
+
+
+    $("#rooms").mouseenter(function(){$("#see-rooms").slideDown("slow");});
+
+    $("#weddings").mouseenter(function(){$("#rest-weddings").slideDown("slow");});
+
+    $("#events").mouseenter(function(){$("#rest-events-list").slideDown("slow");});
+
+
+
+    $(document).ready(function () {
+
+        // set default based on current page
+
+        $('.nav .slide div a').each(function () {
+
+            var href = $(this).attr('href');
+
+            var page = document.location.href;
+
+            if (page.indexOf(href) != -1) {
+
+                var objId = $(this).parents('div').attr('id');
+
+                mousePos = objId+"_items";
+
+                return false;
+
+            }
+
+        });
+
+        // Set Interval
+
+        setInterval(CloseMenu, 200);
+
+    });
+
+    function CloseMenu() {
+
+        if (currentMenu != lastMenu && menuOpen == false) {
+
+            menuOpen = (getHeight(currentMenu) != 0);
+
+            $("#" + currentMenu).slideDown("slow");
+
+            $("#" + currentMenu).queue(function () {
+
+                menuOpen = false;
+
+                $(this).dequeue();
+
+            });
+
+
+
+            if (lastMenu != "") {
+
+                $("#" + lastMenu).slideUp();
+
+
+
+
+                if (lastMenu == "see-items") {
+
+                    $("#see-rooms").slideUp();
+
+                }
+
+
+
+                if (lastMenu == "rest-items") {
+
+                    $("#rest-weddings").slideUp();
+
+                    $("#rest-events-list").slideUp();
+
+                }
+
+            }
+
+
+
+            lastMenu = currentMenu;
+
+        }
+
+
+
+        if (currentMenu != mousePos) {
+
+            currentMenu = mousePos;
+
+        }
+
+    }
+
+    function getHeight(menuName) {return eval(menuName);}
+
+</script>
+
+<!----------------------------->
+
+
+
+        
+        
+        
+</div>
